@@ -1,0 +1,78 @@
+*{
+    font-family: 'Century Gothic', Arial;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+}
+header, footer{
+    background-color: sienna;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 130%;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.asideLeft{
+    background-color: navajowhite;
+    margin: 10px;
+    padding: 20px;
+    width: 35%;
+    height: 400px;
+    box-shadow: 5px 5px 10px dimgray;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 10px;
+    padding-left: 100px;
+}
+nav{
+    height: 50px;
+    width: 100%;
+}
+.asideRight{
+    width: 100%;
+    height: 420px;
+    overflow: auto;
+}
+input, button{
+    margin-top: 20px;
+}
+.gallery{
+    display: inline-block;
+}
+.gallery img{
+    width: 10%;
+    float: inline-start;
+}
+a{
+    color: sienna;
+    margin-right: 30px;
+}
+a:hover{
+    color: #4c1900;
+}
+.zamowienie{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.zamowienie img{
+    width: 100px;
+    float: none;
+}
+.zamowienie div{
+    display: flex;
+    flex-direction: column;
+}
